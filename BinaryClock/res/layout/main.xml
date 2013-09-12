@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutBinary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="35dp">
+
+        <LinearLayout
+            android:id="@+id/linearLayoutHours2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="bottom">      
+            <View
+                android:id="@+id/lblHour_2_2"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblHour_2_1"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutHours1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom">
+            <View
+                android:id="@+id/lblHour_1_4"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblHour_1_3"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblHour_1_2"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblHour_1_1"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutMinutes2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:gravity="bottom">
+            <View
+                android:id="@+id/lblMinutes_2_3"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblMinutes_2_2"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblMinutes_2_1"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF" />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayoutMinutes1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom">
+            <View
+                android:id="@+id/lblMinutes_1_4"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblMinutes_1_3"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblMinutes_1_2"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblMinutes_1_1"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF" />
+		</LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/linearLayoutSeconds2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:gravity="bottom">
+            <View
+                android:id="@+id/lblSeconds_2_3"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblSeconds_2_2"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblSeconds_2_1"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF" />
+		</LinearLayout>
+		
+        <LinearLayout
+            android:id="@+id/linearLayoutSeconds1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:gravity="bottom">
+            <View
+                android:id="@+id/lblSeconds_1_4"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblSeconds_1_3"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblSeconds_1_2"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF"
+        		android:layout_marginBottom="10dp" />
+            <View
+                android:id="@+id/lblSeconds_1_1"
+        		android:layout_height="55dp"
+        		android:layout_width="55dp"
+        		android:background="#66FFFFFF" />
+        </LinearLayout>
+    </LinearLayout>
+    
+  <!--  <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/lblHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="30pt"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/lblColon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=":"
+            android:textSize="30pt"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/lblMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="30pt"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/lblColon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	        android:text=":"
+            android:textSize="30pt"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:id="@+id/lblSeconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00"
+            android:textSize="30pt"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>-->
+</LinearLayout>

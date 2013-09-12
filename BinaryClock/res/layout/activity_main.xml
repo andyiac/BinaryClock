@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+
+              android:id="@+id/LinearLayout2"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#000000"
+              android:orientation="horizontal"
+              tools:context=".Main" >
+
+    <colorpicker.ColorPicker
+            android:id="@+id/picker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="329dp"
+            android:orientation="vertical"
+            android:layout_marginTop="-60dp">
+    <colorpicker.SVBar
+            android:id="@+id/svbar"
+            android:layout_width="322dp"
+            android:layout_height="112dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"/>
+    <colorpicker.OpacityBar
+            android:id="@+id/opacitybar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="8dip"
+            android:layout_below="@+id/svbar"
+            android:layout_alignLeft="@+id/svbar"
+            android:layout_marginTop="10dp"/>
+        <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Change Color"
+                android:layout_weight="1"
+                android:layout_below="@+id/opacitybar"
+                android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>
