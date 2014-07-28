@@ -13,6 +13,6 @@ Android app
 
 ![](http://drp.io/files/53d5dd31b89b8.jpg)
 
-##设置页面
+##设置主题颜色
 ![](http://drp.io/files/53d5e091c6545.jpg)
 
