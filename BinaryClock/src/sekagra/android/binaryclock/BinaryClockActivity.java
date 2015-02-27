@@ -62,16 +62,12 @@ public class BinaryClockActivity extends Activity {
         SharedPreferences settings = getSharedPreferences(PREFS_NAME, 0);
         CLOCL_COLOR =   settings.getInt("mColor", CLOCL_COLOR);
 
-
-
-
         _timer = new Timer(true);
         _timer.schedule(new TimerTask() {
             public void run() {
                 TimerMethod(); //every tick executes this method in the background thread
             }
         }, 100, 200);
-
     }
 
     //pass the job to a method on the UI
@@ -114,13 +110,10 @@ public class BinaryClockActivity extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_settings:
-
-//                Toast.makeText(this, "menuclick", Toast.LENGTH_LONG).show();
                 Intent intent = new Intent();
                 intent.setClass(BinaryClockActivity.this, Main.class);
                 startActivityForResult(intent, 123);
                 break;
-
         }
         return super.onOptionsItemSelected(item);
     }
